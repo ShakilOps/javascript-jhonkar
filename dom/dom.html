@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Dom</title>
+    <style>
+        article{
+            border:2px solid tomato ;
+            border-radius: 10px;
+            margin: 5px;
+            padding: 5px;
+        }
+        .special h3{
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <article>
+                <h3>article-1</h3>
+                <p class="author">author-1</p>
+                <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, quas?</p>
+            </article>
+            <article class="special">
+                <h3>article-2</h3>
+                <p title="I am the most important author" id="bestSeller" class="author">author-2</p>
+                <p class="description">Nulla aliquam beatae quas ipsam blanditiis optio repellat fugiat consequatur.</p>
+            </article>
+            <article class="special">
+                <h3>article-3</h3>
+                <p class="author">author-3</p>
+                <p class="description">Illo, atque pariatur tempore ut explicabo quae fuga ratione? Consequatur!</p>
+            </article>
+        </section>
+    </main>
+    <script>
+        // document.body.style.backgroundColor='tomato'
+        // //var authors=document.getElementsByClassName('author')
+        // var authors = document.querySelectorAll('.special h3');
+        // for(i=0;i<authors.length;i++){
+        //     var element = authors[i];
+        //     element.style.backgroundColor =  'lightblue';
+        //     element.innerHTML = 'Lekhok-'+(i+1);
+        //     element.setAttribute=('tittle','All author is same');
+        // }
+
+
+    </script>
+    
+</body>
+</html>

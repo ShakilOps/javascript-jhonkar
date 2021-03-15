@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+</head>
+<body>
+    <h1>Exploring Event</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <p>Voluptas laborum nobis dolorem repellat minima quis ipsam?</p>
+    <p>Iure repellendus reprehenderit ipsum illo officiis nisi optio!</p>
+    <button>Click me</button>
+    <button id="second">Click me-1</button>
+    <button id="middle">Click me-2</button>
+    <button id="lastPerson">Click me-3</button>
+    <script>
+        // function handleClick(){
+        //    document.body.style.backgroundColor = 'cyan';
+        // }
+        // const secondButton = document.getElementById('second')
+        // //secondButton.onclick = handleClick()  
+        // //ekhane function er pore bracket deya mane function ta ke call koa but ami chassi je 
+        // //onclick hbe then function ta call hbe so bracket ekhane hbe nah
+
+        // secondButton.onclick = handleClick; //that is call event listener
+
+        //another way of event listener
+        // const middleButton = document.getElementById('middle')
+        // middleButton.addEventListener('click' , handleClick)
+
+        //another way of event listener
+        document.getElementById('lastPerson').addEventListener('click',function(){
+            document.body.style.color = 'tomato';
+        })
+        //function er kono nam thakbe na evabe event listener use korle...that is called anonymous function
+
+
+
+    </script>
+    
+</body>
+</html>
